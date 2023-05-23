@@ -1,1 +1,5310 @@
-{"localities":[],"commerceTypes":[],"promotions":[]}
+{
+    "promotions": [
+        {
+            "mask": 1,
+            "id": 8,
+            "title": "Comercios Locales",
+            "name": "local",
+            "active": true,
+            "shown": true,
+            "discount": 0.3,
+            "maxium": 1500.0,
+            "daysActive": [
+                3,
+                4
+            ]
+        },
+        {
+            "mask": 2,
+            "id": 14,
+            "title": "Carnicerias",
+            "name": "meat",
+            "active": true,
+            "shown": true,
+            "discount": 0.35,
+            "maxium": 3000.0,
+            "daysActive": [
+                6,
+                7
+            ]
+        }
+    ],
+    "types": [
+        {
+            "nombre": "TALLERES MECÁNICOS",
+            "id": 0
+        },
+        {
+            "nombre": "ALMACENES/ DIETÉTICAS Y MÁS",
+            "id": 1
+        },
+        {
+            "nombre": "RESTAURANTES/ CONFITERÍAS",
+            "id": 2
+        },
+        {
+            "nombre": "GOMERÍAS",
+            "id": 3
+        },
+        {
+            "nombre": "PANADERÍA",
+            "id": 4
+        },
+        {
+            "nombre": "SUPERMERCADOS",
+            "id": 5
+        },
+        {
+            "nombre": "OTROS",
+            "id": 6
+        },
+        {
+            "nombre": "ACCESORIOS/ REPUESTOS",
+            "id": 7
+        },
+        {
+            "nombre": "ARTÍCULOS COMESTIBLES Y MÁS",
+            "id": 8
+        },
+        {
+            "nombre": "ARTÍCULOS DE INFORMÁTICA",
+            "id": 9
+        },
+        {
+            "nombre": "ARTÍCULOS DE LIMPIEZA",
+            "id": 10
+        },
+        {
+            "nombre": "ARTÍCULOS DEPORTIVOS",
+            "id": 11
+        },
+        {
+            "nombre": "ARTÍCULOS ELÉCTRICOS",
+            "id": 12
+        },
+        {
+            "nombre": "ARTÍCULOS PARA EL HOGAR",
+            "id": 13
+        },
+        {
+            "nombre": "ARTÍCULOS PARA MASCOTAS",
+            "id": 14
+        },
+        {
+            "nombre": "ARTÍCULOS REGIONALES",
+            "id": 15
+        },
+        {
+            "nombre": "BAR/ PUB",
+            "id": 16
+        },
+        {
+            "nombre": "BAZAR/ REGALERÍA",
+            "id": 17
+        },
+        {
+            "nombre": "BOMBONERIAS",
+            "id": 18
+        },
+        {
+            "nombre": "CALZADOS",
+            "id": 19
+        },
+        {
+            "nombre": "CENTROS DE ESTÉTICA Y MÁS",
+            "id": 20
+        },
+        {
+            "nombre": "COMBUSTIBLE",
+            "id": 21
+        },
+        {
+            "nombre": "DISTRIBUIDORES",
+            "id": 22
+        },
+        {
+            "nombre": "E-COMMERCE",
+            "id": 23
+        },
+        {
+            "nombre": "ELECTRODOMÉSTICOS",
+            "id": 24
+        },
+        {
+            "nombre": "ENTRETENIMIENTO",
+            "id": 25
+        },
+        {
+            "nombre": "ESTACIONAMIENTOS",
+            "id": 26
+        },
+        {
+            "nombre": "FÁBRICA DE PASTAS/ ROTISERÍAS",
+            "id": 27
+        },
+        {
+            "nombre": "FARMACIAS/ PERFUMERÍAS Y MÁS",
+            "id": 28
+        },
+        {
+            "nombre": "FAST FOOD/ PARA LLEVAR",
+            "id": 29
+        },
+        {
+            "nombre": "FERRETERÍAS",
+            "id": 30
+        },
+        {
+            "nombre": "HELADERÍA",
+            "id": 31
+        },
+        {
+            "nombre": "ILUMINACIÓN",
+            "id": 32
+        },
+        {
+            "nombre": "INDUMENTARIA/ BOUTIQUE",
+            "id": 33
+        },
+        {
+            "nombre": "INMOBILIARIAS",
+            "id": 34
+        },
+        {
+            "nombre": "INSTITUCIONES EDUCATIVAS",
+            "id": 35
+        },
+        {
+            "nombre": "INSTITUTOS DE ENSEÑANZA",
+            "id": 36
+        },
+        {
+            "nombre": "INSUMOS DE TEJER/ COSER Y MÁS",
+            "id": 37
+        },
+        {
+            "nombre": "JOYERÍAS/ RELOJERIAS",
+            "id": 38
+        },
+        {
+            "nombre": "JUGUETERÍAS",
+            "id": 39
+        },
+        {
+            "nombre": "KIOSKO/ TABAQUERÍA/ POLIRUBRO",
+            "id": 40
+        },
+        {
+            "nombre": "LENCERÍA",
+            "id": 41
+        },
+        {
+            "nombre": "LIBRERÍAS/ IMPRENTAS",
+            "id": 42
+        },
+        {
+            "nombre": "MARROQUINERÍAS",
+            "id": 43
+        },
+        {
+            "nombre": "MAT. PARA LA CONSTRUCCIÓN",
+            "id": 44
+        },
+        {
+            "nombre": "MAYORISTAS",
+            "id": 45
+        },
+        {
+            "nombre": "MUEBLERÍAS",
+            "id": 46
+        },
+        {
+            "nombre": "OBRAS SOCIALES/ PREPAGAS",
+            "id": 47
+        },
+        {
+            "nombre": "PELUQUERÍAS",
+            "id": 48
+        },
+        {
+            "nombre": "PINTURERÍAS",
+            "id": 49
+        },
+        {
+            "nombre": "SEGUROS",
+            "id": 50
+        },
+        {
+            "nombre": "SERVICIOS DE SALUD/ MEDICINA",
+            "id": 51
+        },
+        {
+            "nombre": "SERVICIOS DE TRANSPORTE",
+            "id": 52
+        },
+        {
+            "nombre": "SERVICIOS PARA EL AUTOMOTOR",
+            "id": 53
+        },
+        {
+            "nombre": "SERVICIOS PROFESIONALES",
+            "id": 54
+        },
+        {
+            "nombre": "TEXTIL",
+            "id": 55
+        },
+        {
+            "nombre": "TINTORERÍA/ LAVANDERÍA",
+            "id": 56
+        },
+        {
+            "nombre": "TURISMO/ HOTELES",
+            "id": 57
+        },
+        {
+            "nombre": "UNIFORMES",
+            "id": 58
+        },
+        {
+            "nombre": "VENTA DE PRODUCTOS AGRO",
+            "id": 59
+        },
+        {
+            "nombre": "VENTAS DE AUTOMOTORES",
+            "id": 60
+        },
+        {
+            "nombre": "VERDULERÍAS/ FRUTERÍAS",
+            "id": 61
+        },
+        {
+            "nombre": "VETERINARIA",
+            "id": 62
+        },
+        {
+            "nombre": "AUXILIOS MECÁNICOS",
+            "id": 63
+        },
+        {
+            "nombre": "CARNICERÍAS/ GRANJAS Y MÁS",
+            "id": 64
+        },
+        {
+            "nombre": "DIARIOS/ REVISTAS",
+            "id": 65
+        },
+        {
+            "nombre": "DISTRIBUCIÓN DE GAS/ GARRAFAS",
+            "id": 66
+        },
+        {
+            "nombre": "EVENTOS",
+            "id": 67
+        },
+        {
+            "nombre": "FABRICANTES",
+            "id": 68
+        },
+        {
+            "nombre": "TELEVISIÓN POR CABLE",
+            "id": 69
+        },
+        {
+            "nombre": "ACADEMIAS DE CONDUCCIÓN",
+            "id": 70
+        },
+        {
+            "nombre": "BIJOUTERIE/ PLATERÍA",
+            "id": 71
+        },
+        {
+            "nombre": "CARPINTERÍA",
+            "id": 72
+        },
+        {
+            "nombre": "FLORERÍAS/ VIVEROS",
+            "id": 73
+        },
+        {
+            "nombre": "GIMNASIOS",
+            "id": 74
+        },
+        {
+            "nombre": "HOSPITALES/ GUARDIAS Y MÁS",
+            "id": 75
+        },
+        {
+            "nombre": "PESCA/ CAZA/ ARMERÍA",
+            "id": 76
+        },
+        {
+            "nombre": "SANTERÍAS",
+            "id": 77
+        },
+        {
+            "nombre": "SERVICIO DE LUNCH",
+            "id": 78
+        },
+        {
+            "nombre": "TELEFONÍA",
+            "id": 79
+        },
+        {
+            "nombre": "VENTA DE MOTOS",
+            "id": 80
+        },
+        {
+            "nombre": "VENTA TELEFÓNICA",
+            "id": 81
+        },
+        {
+            "nombre": "VINOTECAS/ CERVEZAS/ LICORES",
+            "id": 82
+        },
+        {
+            "nombre": "BICICLETAS/ RODADOS",
+            "id": 83
+        },
+        {
+            "nombre": "CEMENTERIOS/ CASA VELATORIA",
+            "id": 84
+        },
+        {
+            "nombre": "CERRAJERÍA/ CRISTALES",
+            "id": 85
+        },
+        {
+            "nombre": "PAGO DE SERVICIOS Y MÁS",
+            "id": 86
+        },
+        {
+            "nombre": "RECREACIÓN/ HOBBIES",
+            "id": 87
+        },
+        {
+            "nombre": "ARTÍCULOS PROFESIONALES",
+            "id": 88
+        },
+        {
+            "nombre": "LAVADEROS/ LUBRICENTROS",
+            "id": 89
+        },
+        {
+            "nombre": "ASOCIACIONES CIVÍLES",
+            "id": 90
+        },
+        {
+            "nombre": "CLUBES/ CAMPINGS/ BALNEARIOS",
+            "id": 91
+        },
+        {
+            "nombre": "ALQUILER DE PRENDAS",
+            "id": 92
+        },
+        {
+            "nombre": "CELULARES",
+            "id": 93
+        },
+        {
+            "nombre": "SERVICIOS PÚBLICOS",
+            "id": 94
+        },
+        {
+            "nombre": "PELUCAS Y POSTIZOS",
+            "id": 95
+        },
+        {
+            "nombre": "VENTA POR CATÁLOGO",
+            "id": 96
+        },
+        {
+            "nombre": "INSTRUMENTOS MUSICALES",
+            "id": 97
+        },
+        {
+            "nombre": "NATATORIOS",
+            "id": 98
+        },
+        {
+            "nombre": "TEATROS",
+            "id": 99
+        },
+        {
+            "nombre": "ARTÍCULOS PARA PISCINAS Y MÁS",
+            "id": 100
+        },
+        {
+            "nombre": "ENTE GUBERNAMENTAL",
+            "id": 101
+        },
+        {
+            "nombre": "JUEGOS DE AZAR",
+            "id": 102
+        },
+        {
+            "nombre": "PAÑALERA",
+            "id": 103
+        },
+        {
+            "nombre": "SERVICIOS FINANCIEROS",
+            "id": 104
+        },
+        {
+            "nombre": "MERCADO CENTRAL",
+            "id": 105
+        },
+        {
+            "nombre": "ESTACIONES DE SERVICIO",
+            "id": 106
+        },
+        {
+            "nombre": "CINES",
+            "id": 107
+        },
+        {
+            "nombre": "FUNDACIONES",
+            "id": 108
+        },
+        {
+            "nombre": "ACUARIOS",
+            "id": 109
+        },
+        {
+            "nombre": "DEBITO AUTOMÁTICO",
+            "id": 110
+        }
+    ],
+    "localities": [
+        {
+            "nombre": "11 DE SEPTIEMBRE",
+            "id": 0,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "12 DE OCTUBRE",
+            "id": 1,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "16 DE JULIO",
+            "id": 2,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "17 DE AGOSTO",
+            "id": 3,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "20 DE JUNIO",
+            "id": 4,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "25 DE MAYO",
+            "id": 5,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "3 DE FEBRERO",
+            "id": 6,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "30 DE AGOSTO",
+            "id": 7,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "9 DE ABRIL",
+            "id": 8,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "9 DE JULIO",
+            "id": 9,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ABASTO",
+            "id": 10,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ABBOTT",
+            "id": 11,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ACASSUSO",
+            "id": 12,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ACEVEDO",
+            "id": 13,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ADOLFO ALSINA",
+            "id": 14,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ADOLFO GONZALES CHAVES",
+            "id": 15,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ADROGUÉ",
+            "id": 16,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "AGUAS VERDES",
+            "id": 17,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "AGUAS VERDES - COSTA AZUL",
+            "id": 18,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "AGUSTÍN ROCA",
+            "id": 19,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ALBERTI",
+            "id": 20,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ALDEA SAN ANTONIO",
+            "id": 21,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ALDO BONZI",
+            "id": 22,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ALEJANDRO KORN",
+            "id": 23,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ALEJANDRO PETIÓN",
+            "id": 24,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ALJANDRO COHAN",
+            "id": 25,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ALMIRANTE BROWN",
+            "id": 26,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ALSINA",
+            "id": 27,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ALTOS DE SAN LORENZO",
+            "id": 28,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ALVAREZ DE TOLEDO",
+            "id": 29,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ÁLVAREZ JONTE",
+            "id": 30,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "AMEGHINO",
+            "id": 31,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "AMÉRICA",
+            "id": 32,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "AMERICA",
+            "id": 33,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ÁNGEL ETCHEVERRY",
+            "id": 34,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ARANA",
+            "id": 35,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ARBUCO",
+            "id": 36,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ARENAZA",
+            "id": 37,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ARRECIFES",
+            "id": 38,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ARRIBEÑO",
+            "id": 39,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ARRIBEÑOS",
+            "id": 40,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ARROYO CORTO",
+            "id": 41,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ARROYO DULCE",
+            "id": 42,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ARTURO SEGUÍ",
+            "id": 43,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ASCENSIÓN",
+            "id": 44,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ATALAYA",
+            "id": 45,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ATLANTIDA",
+            "id": 46,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "AVELLANEDA",
+            "id": 47,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "AYACUCHO",
+            "id": 48,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "AZUL",
+            "id": 49,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BAHÍA BLANCA",
+            "id": 50,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BAHIA BLANCA",
+            "id": 51,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BAHÍA SAN BLAS",
+            "id": 52,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BAIGORRITA",
+            "id": 53,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BALCARCE",
+            "id": 54,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BALNEARIO CLAROMECO",
+            "id": 55,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BALNEARIO MAR CHIQUITA",
+            "id": 56,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BALNEARIO ORENSE",
+            "id": 57,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BANDERALO",
+            "id": 58,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BANFIELD",
+            "id": 59,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BARADERO",
+            "id": 60,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BARKER",
+            "id": 61,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BARRIO BATAN",
+            "id": 62,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BARRIO SARMIENTO - DON ROLANDO",
+            "id": 63,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BARTOLOMÉ MITRE",
+            "id": 64,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BATÁN",
+            "id": 65,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BAVIO",
+            "id": 66,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BAYAUCA",
+            "id": 67,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BÉCCAR",
+            "id": 68,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BECCAR",
+            "id": 69,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BELÉN DE ESCOBAR",
+            "id": 70,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BELEN DE ESCOBAR",
+            "id": 71,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BELLA VISTA",
+            "id": 72,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BELLOCQ",
+            "id": 73,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BENAVÍDEZ",
+            "id": 74,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BENAVIDEZ",
+            "id": 75,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BENITO JUÁREZ",
+            "id": 76,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BERAZATEGUI",
+            "id": 77,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BERISSO",
+            "id": 78,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BERNAL",
+            "id": 79,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BERNAL ESTE",
+            "id": 80,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BERNAL OESTE",
+            "id": 81,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BERUTI",
+            "id": 82,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BERUTTI",
+            "id": 83,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BILLINGHURST",
+            "id": 84,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BLAQUIER",
+            "id": 85,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BOLÍVAR",
+            "id": 86,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BOLIVAR",
+            "id": 87,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BORDENAVE",
+            "id": 88,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BOSQUES",
+            "id": 89,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BOULOGNE",
+            "id": 90,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BOULOGNE SUR MER",
+            "id": 91,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BRAGADO",
+            "id": 92,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BRANDSEN",
+            "id": 93,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BUCHANAN",
+            "id": 94,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "BURZACO",
+            "id": 95,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA",
+            "id": 96,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-AGRONOMÍA",
+            "id": 97,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-ALMAGRO",
+            "id": 98,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-BALVANERA",
+            "id": 99,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-BARRACAS",
+            "id": 100,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-BELGRANO",
+            "id": 101,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-BOCA",
+            "id": 102,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-BOEDO",
+            "id": 103,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-CABALLITO",
+            "id": 104,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-CHACARITA",
+            "id": 105,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-COGHLAN",
+            "id": 106,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-COLEGIALES",
+            "id": 107,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-CONSTITUCIÓN",
+            "id": 108,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-CONSTITUCION",
+            "id": 109,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-FLORES",
+            "id": 110,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-FLORESTA",
+            "id": 111,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-LINIERS",
+            "id": 112,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-MATADEROS",
+            "id": 113,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-MONSERRAT",
+            "id": 114,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-MONTE CASTRO",
+            "id": 115,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-MONTSERRAT",
+            "id": 116,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-NUEVA POMPEYA",
+            "id": 117,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-NÚÑEZ",
+            "id": 118,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-NUÑEZ",
+            "id": 119,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-PALERMO",
+            "id": 120,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-PARQUE AVELLANEDA",
+            "id": 121,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-PARQUE CHACABUCO",
+            "id": 122,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-PARQUE CHAS",
+            "id": 123,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-PARQUE PATRICIOS",
+            "id": 124,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-RECOLETA",
+            "id": 125,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-RETIRO",
+            "id": 126,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-SAAVEDRA",
+            "id": 127,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-SAN CRISTÓBAL",
+            "id": 128,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-SAN NICOLÁS",
+            "id": 129,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-SAN TELMO",
+            "id": 130,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-VÉLEZ SÁRSFIELD",
+            "id": 131,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-VELEZ ZARSFIELD",
+            "id": 132,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-VILLA CRESPO",
+            "id": 133,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-VILLA DEL PARQUE",
+            "id": 134,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-VILLA DEVOTO",
+            "id": 135,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-VILLA GENERAL MITRE",
+            "id": 136,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-VILLA LUGANO",
+            "id": 137,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-VILLA LURO",
+            "id": 138,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-VILLA ORTÚZAR",
+            "id": 139,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-VILLA PUEYRREDÓN",
+            "id": 140,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-VILLA REAL",
+            "id": 141,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-VILLA RIACHUELO",
+            "id": 142,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-VILLA SANTA RITA",
+            "id": 143,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-VILLA SOLDATI",
+            "id": 144,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABA-VILLA URQUIZA",
+            "id": 145,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CABILDO",
+            "id": 146,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CACHARÍ",
+            "id": 147,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CAMET",
+            "id": 148,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CAMPANA",
+            "id": 149,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CAÑADA SECA",
+            "id": 150,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CANNING",
+            "id": 151,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CAÑUELAS",
+            "id": 152,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CAPILLA DEL SEÑOR",
+            "id": 153,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CAPITÁN SARMIENTO",
+            "id": 154,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CAPITAN SARMIENTO",
+            "id": 155,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CARAPACHAY",
+            "id": 156,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CARHUÉ",
+            "id": 157,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CARHUE",
+            "id": 158,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CARILÓ",
+            "id": 159,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CARLOS CASARES",
+            "id": 160,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CARLOS ESPEGAZZINI",
+            "id": 161,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CARLOS KEEN",
+            "id": 162,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CARLOS SPEGAZZINI",
+            "id": 163,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CARLOS TEJEDOR",
+            "id": 164,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CARMEN DE ARECO",
+            "id": 165,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CARMEN DE PATAGONES",
+            "id": 166,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CASARES",
+            "id": 167,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CASBAS",
+            "id": 168,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CASCADA",
+            "id": 169,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CASEROS",
+            "id": 170,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CASTELAR",
+            "id": 171,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CASTELLI",
+            "id": 172,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CASTILLA",
+            "id": 173,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CENTRO AGRICOLA EL PATO",
+            "id": 174,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CHACABUCO",
+            "id": 175,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CHAPADMALAL",
+            "id": 176,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CHASCOMÚS",
+            "id": 177,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CHASCOMUS",
+            "id": 178,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CHASICO",
+            "id": 179,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CHILLAR",
+            "id": 180,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CHIVILCOY",
+            "id": 181,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CITY BELL",
+            "id": 182,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CITY BELL - COUNTRY GRAN BELL",
+            "id": 183,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CIUDAD AUTONOMA BUENOS AIRES",
+            "id": 184,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CIUDAD EVITA",
+            "id": 185,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CIUDAD JARDÍN LOMAS DEL PALOMAR",
+            "id": 186,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CIUDADELA",
+            "id": 187,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CLARAZ",
+            "id": 188,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CLAROMECÓ",
+            "id": 189,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CLAROMECO",
+            "id": 190,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CLAYPOLE",
+            "id": 191,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "COBO",
+            "id": 192,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "COLÓN",
+            "id": 193,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "COLON",
+            "id": 194,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "COLONIA HINOJO",
+            "id": 195,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "COLONIA SAN MIGUEL",
+            "id": 196,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "COLONIA SAN RICARDO",
+            "id": 197,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "COLONIA SERE",
+            "id": 198,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "COMANDANTE NICANOR OTAMENDI",
+            "id": 199,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "COMODORO PY",
+            "id": 200,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CONESA",
+            "id": 201,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "COPETONAS",
+            "id": 202,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CÓRDOBA",
+            "id": 203,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CORONEL BRANDSEN",
+            "id": 204,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CORONEL CHARLONE",
+            "id": 205,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CORONEL DÍAZ",
+            "id": 206,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CORONEL DORREGO",
+            "id": 207,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CORONEL GRANADA",
+            "id": 208,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CORONEL JUÁREZ",
+            "id": 209,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CORONEL PRINGLES",
+            "id": 210,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CORONEL SUÁREZ",
+            "id": 211,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CORONEL SUAREZ",
+            "id": 212,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CORONEL VIDAL",
+            "id": 213,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CORTINES",
+            "id": 214,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "COSTA AZUL",
+            "id": 215,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "COSTA DEL ESTE",
+            "id": 216,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CRUCESITA",
+            "id": 217,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CUARTEL V",
+            "id": 218,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CUCULLU",
+            "id": 219,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CUIDADELA",
+            "id": 220,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "DAIREAUX",
+            "id": 221,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "DARREGUEIRA",
+            "id": 222,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "DE LA GARMA",
+            "id": 223,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "DEL CARRIL",
+            "id": 224,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "DEL VALLE",
+            "id": 225,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "DEL VISO",
+            "id": 226,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "DIQUE LUJÁN",
+            "id": 227,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "DOCK SUD",
+            "id": 228,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "DOLORES",
+            "id": 229,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "DOMSELAAR",
+            "id": 230,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "DON BOSCO",
+            "id": 231,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "DON TORCUATO",
+            "id": 232,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "DOYLE",
+            "id": 233,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "DUDIGNAC",
+            "id": 234,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "DUFAUR",
+            "id": 235,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "DUGGAN",
+            "id": 236,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "EL JAGUEL",
+            "id": 237,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "EL LIBERTADOR",
+            "id": 238,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "EL PALOMAR",
+            "id": 239,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "EL PARAÍSO",
+            "id": 240,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "EL PATO",
+            "id": 241,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "EL RINCÓN",
+            "id": 242,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "EL SOCORRO",
+            "id": 243,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "EL TALAR",
+            "id": 244,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "EL TRIUNFO",
+            "id": 245,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "EMILIO V. BUNGE",
+            "id": 246,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "EMPORIO STROEDER",
+            "id": 247,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ENDERSON",
+            "id": 248,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ENSENADA",
+            "id": 249,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ENSENADA - BARRIO LAS CASUARINAS",
+            "id": 250,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ERÉZCANO",
+            "id": 251,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ESCOBAR",
+            "id": 252,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ESPARTILLAR",
+            "id": 253,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ESPORA",
+            "id": 254,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ESTACIÓN CAMET",
+            "id": 255,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ESTANISLAO SEVERO ZEBALLOS",
+            "id": 256,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ESTEBAN ECHEVERRÍA",
+            "id": 257,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ESTEBAN ECHEVERRIA",
+            "id": 258,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "EXALTACIÓN DE LA CRUZ",
+            "id": 259,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "EZEIZA",
+            "id": 260,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "EZPELETA",
+            "id": 261,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "FÁTIMA",
+            "id": 262,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "FELIPE SOLÁ",
+            "id": 263,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "FERRE",
+            "id": 264,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "FERRÉ",
+            "id": 265,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "FIORITO",
+            "id": 266,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "FLORENCIO VARELA",
+            "id": 267,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "FLORENCIO VARELA",
+            "id": 268,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "FLORENTINO AMEGHINO",
+            "id": 269,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "FLORIDA",
+            "id": 270,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "FLORIDA OESTE",
+            "id": 271,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "FORTABAT",
+            "id": 272,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "FORTÍN OLAVARRÍA",
+            "id": 273,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "FORTÍN TIBURCIO",
+            "id": 274,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "FRANCISCO ÁLVAREZ",
+            "id": 275,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "FRANCISCO MADERO",
+            "id": 276,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GAHAN",
+            "id": 277,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GARDEY",
+            "id": 278,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GARÍN",
+            "id": 279,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GARIN",
+            "id": 280,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GARRÉ",
+            "id": 281,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GENERA RODRÍGUEZ",
+            "id": 282,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GENERAL ALVARADO",
+            "id": 283,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GENERAL ALVEAR",
+            "id": 284,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GENERAL ARENALES",
+            "id": 285,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GENERAL BELGRANO",
+            "id": 286,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GENERAL CONESA",
+            "id": 287,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GENERAL DANIEL CERRI",
+            "id": 288,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GENERAL GELLY",
+            "id": 289,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GENERAL GUIDO",
+            "id": 290,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GENERAL HORNOS",
+            "id": 291,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GENERAL JUAN MADARIAGA",
+            "id": 292,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GENERAL LA HERAS",
+            "id": 293,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GENERAL LAMADRID",
+            "id": 294,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GENERAL LAS HERAS",
+            "id": 295,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GENERAL LAS HERAZ",
+            "id": 296,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GENERAL LAVALLE",
+            "id": 297,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GENERAL MADARIAGA",
+            "id": 298,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GENERAL MANSILLA",
+            "id": 299,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GENERAL O BRIEN",
+            "id": 300,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GENERAL O'BRIEN",
+            "id": 301,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GENERAL PACHECO",
+            "id": 302,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GENERAL PAZ",
+            "id": 303,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GENERAL PINTO",
+            "id": 304,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GENERAL PIRÁN",
+            "id": 305,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GENERAL PIRAN",
+            "id": 306,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GENERAL PUEYRREDÓN",
+            "id": 307,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GENERAL RODRÍGUEZ",
+            "id": 308,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GENERAL RODRIGUEZ",
+            "id": 309,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GENERAL ROJO",
+            "id": 310,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GENERAL SALVIO",
+            "id": 311,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GENERAL SAN MARTÍN",
+            "id": 312,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GENERAL VIAMONTE",
+            "id": 313,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GENERAL VILLEGAS",
+            "id": 314,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GERLI",
+            "id": 315,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GERMANIA",
+            "id": 316,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GLEW",
+            "id": 317,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GOBERNADOR CASTRO",
+            "id": 318,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GOBERNADOR COSTA",
+            "id": 319,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GOBERNADOR UDAONDO",
+            "id": 320,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GOBERNADOR UGARTE",
+            "id": 321,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GONZÁLEZ CATÁN",
+            "id": 322,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GONZALEZ CATAN",
+            "id": 323,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GONZÁLEZ MORENO",
+            "id": 324,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GORCHS",
+            "id": 325,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GOWLAND",
+            "id": 326,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GOYENA",
+            "id": 327,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GRAL. DANIEL CERRI",
+            "id": 328,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GRAL. LAS HERAS",
+            "id": 329,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GRAN BOURG",
+            "id": 330,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GRAND BOURG",
+            "id": 331,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GREGORIO DE LAFERRERE",
+            "id": 332,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GUAMINÍ",
+            "id": 333,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GUARDIA DEL MONTE",
+            "id": 334,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GUERNICA",
+            "id": 335,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GUERRICO",
+            "id": 336,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GUILLERMO E HUDSON",
+            "id": 337,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GUILLERMO E. HUDSON",
+            "id": 338,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "GUILLERMO HUDSON",
+            "id": 339,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "HAEDO",
+            "id": 340,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "HENDERSON",
+            "id": 341,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "HILARIO ASCASUBI",
+            "id": 342,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "HINOJO",
+            "id": 343,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "HIPÓLITO YRIGOYEN",
+            "id": 344,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "HUANGUELEN",
+            "id": 345,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "HUANGUELÉN",
+            "id": 346,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "HUDSON",
+            "id": 347,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "HURLINGHAM",
+            "id": 348,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "HURLINGHAN",
+            "id": 349,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "INES INDART",
+            "id": 350,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "INGENIERO ADOLFO SOURDEAUX",
+            "id": 351,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "INGENIERO ALLAN",
+            "id": 352,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "INGENIERO BEAUGEY",
+            "id": 353,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "INGENIERO BUDGE",
+            "id": 354,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "INGENIERO MASCHWITZ",
+            "id": 355,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "INGENIERO PABLO NOGUÉS",
+            "id": 356,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "INGENIERO WHITE",
+            "id": 357,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "IRALA",
+            "id": 358,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ISIDRO CASANOVA",
+            "id": 359,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ISLA MARTÍN GARCÍA",
+            "id": 360,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ITUZAINGÓ",
+            "id": 361,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ITUZAINGO",
+            "id": 362,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "JÁUREGUI",
+            "id": 363,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "JAUREGUI",
+            "id": 364,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "JEPPENER",
+            "id": 365,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "JOAQUÍN GORINA",
+            "id": 366,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "JOAQUIN GORINA",
+            "id": 367,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "JOSE A. GUISASOLA",
+            "id": 368,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "JOSÉ C. PAZ",
+            "id": 369,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "JOSE C. PAZ",
+            "id": 370,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "JOSÉ HERNÁNDEZ",
+            "id": 371,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "JOSÉ INGENIEROS",
+            "id": 372,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "JOSE L SUÁREZ",
+            "id": 373,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "JOSÉ LEÓN SUÁREZ",
+            "id": 374,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "JOSÉ MARÍA EZEIZA",
+            "id": 375,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "JOSE MARIA GUTIÉRREZ",
+            "id": 376,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "JOSÉ MARMOL",
+            "id": 377,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "JOSÉ MELCHOR ROMERO",
+            "id": 378,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "JUAN",
+            "id": 379,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "JUAN A. PRADERE",
+            "id": 380,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "JUAN B. ALBERDI",
+            "id": 381,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "JUAN COUSTÉ",
+            "id": 382,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "JUAN E. BARRA",
+            "id": 383,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "JUAN JOSÉ PASO",
+            "id": 384,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "JUAN MARÍA GUTIERREZ",
+            "id": 385,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "JUAN MARÍA GUTIÉRREZ",
+            "id": 386,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "JUAN N. FERNÁNDEZ",
+            "id": 387,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "JUANA A DE LA PEÑA",
+            "id": 388,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "JUAREZ",
+            "id": 389,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "JUÁREZ",
+            "id": 390,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "JUNÍN",
+            "id": 391,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "JUNIN",
+            "id": 392,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LA CALETA",
+            "id": 393,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LA COLINA",
+            "id": 394,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LA EMILIA",
+            "id": 395,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LA FLORIDA",
+            "id": 396,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LA GLORIA DE LA PELEGRINA",
+            "id": 397,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LA LONJA",
+            "id": 398,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LA LUCILA DEL MAR",
+            "id": 399,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LA LUISA",
+            "id": 400,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LA MATANZA",
+            "id": 401,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LA NIÑA",
+            "id": 402,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LA PASTORA",
+            "id": 403,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LA PLATA",
+            "id": 404,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LA REJA",
+            "id": 405,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LA RICA",
+            "id": 406,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LA TABLADA",
+            "id": 407,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LA UNIÓN",
+            "id": 408,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LA VIOLETA",
+            "id": 409,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LABARDEN",
+            "id": 410,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LABARDÉN",
+            "id": 411,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LAGUNA ALSINA",
+            "id": 412,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LANÚS",
+            "id": 413,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LANUS",
+            "id": 414,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LANUS ESTE",
+            "id": 415,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LANUS OESTE",
+            "id": 416,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LAPRIDA",
+            "id": 417,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LAS ARMAS",
+            "id": 418,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LAS CARABELAS",
+            "id": 419,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LAS FLORES",
+            "id": 420,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LAS GAVIOTAS",
+            "id": 421,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LAS MALVINAS",
+            "id": 422,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LAS TONINAS",
+            "id": 423,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LAVALLOL",
+            "id": 424,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LEANDRO N. ALEM",
+            "id": 425,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LEÓN SUÁREZ",
+            "id": 426,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LEZAMA",
+            "id": 427,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LÍBANO",
+            "id": 428,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LIBERTAD",
+            "id": 429,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LIBERTAD MERLO",
+            "id": 430,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LIMA",
+            "id": 431,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LINCOLN",
+            "id": 432,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LISANDO OLMOS",
+            "id": 433,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LISANDRO OLMOS",
+            "id": 434,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LLAVALLOL",
+            "id": 435,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LOBERÍA",
+            "id": 436,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LOBOS",
+            "id": 437,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LOCALIDAD",
+            "id": 438,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LOMA HERMOSA",
+            "id": 439,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LOMA NEGRA",
+            "id": 440,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LOMA VERDE",
+            "id": 441,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LOMAS DE ZAMORA",
+            "id": 442,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LOMAS DEL MIRADOR",
+            "id": 443,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LOMAZ DE ZAMORA",
+            "id": 444,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LONGCHAMPS",
+            "id": 445,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LOS CARDALES",
+            "id": 446,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LOS HORNOS",
+            "id": 447,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LOS POLVORINES",
+            "id": 448,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LOS TALAS",
+            "id": 449,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LOS TOLDOS",
+            "id": 450,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LOS TRONCOS DEL TALAR",
+            "id": 451,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LUGANO",
+            "id": 452,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LUIS GUILLÓN",
+            "id": 453,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LUIS GUILLON",
+            "id": 454,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LUJÁN",
+            "id": 455,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "LUJAN",
+            "id": 456,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "M. B. GONNET",
+            "id": 457,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MADARIAGA",
+            "id": 458,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MAGDALENA",
+            "id": 459,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MAIPÚ",
+            "id": 460,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MALVINAS ARGENTINAS",
+            "id": 461,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MANUEL B GONNET",
+            "id": 462,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MANUEL B. GONNET",
+            "id": 463,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MANUEL J. COBO",
+            "id": 464,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MANUEL OCAMPO",
+            "id": 465,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MANZANARES",
+            "id": 466,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MAQUINISTA F. SAVIO",
+            "id": 467,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MAR AZUL",
+            "id": 468,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MAR CHIQUITA",
+            "id": 469,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MAR DE AJÓ",
+            "id": 470,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MAR DE AJO",
+            "id": 471,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MAR DE COBO",
+            "id": 472,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MAR DE LAS PAMPAS",
+            "id": 473,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MAR DEL PLATA",
+            "id": 474,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MAR DEL SUD",
+            "id": 475,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MAR DEL SUR",
+            "id": 476,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MAR DEL TUYÚ",
+            "id": 477,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MAR DEL TUYU",
+            "id": 478,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MAR DEL TUYÚ - COSTA DEL ESTE",
+            "id": 479,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MARCOS PAZ",
+            "id": 480,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MARIA IGNACIA",
+            "id": 481,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MARIANO ACOSTA",
+            "id": 482,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MARIANO H. ALFONZO",
+            "id": 483,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MARTÍN CORONADO",
+            "id": 484,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MARTÍNEZ",
+            "id": 485,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MARTÍNEZ DE HOZ",
+            "id": 486,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MATHEU",
+            "id": 487,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MÁXIMO PAZ - BARRIO LA TORRE",
+            "id": 488,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MAYOR BURATOVICH",
+            "id": 489,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MECHITA",
+            "id": 490,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MECHONGUÉ",
+            "id": 491,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MÉDANO",
+            "id": 492,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MEDANOS",
+            "id": 493,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MÉDANOS",
+            "id": 494,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MELCHOR ROMERO",
+            "id": 495,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MENDOZA",
+            "id": 496,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MERCADO CENTRAL",
+            "id": 497,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MERCEDES",
+            "id": 498,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MERLO",
+            "id": 499,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MICAELA CASCALLARES",
+            "id": 500,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MINISTRO RIVADAVIA",
+            "id": 501,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MIRAMAR",
+            "id": 502,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MITRE",
+            "id": 503,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MOLL",
+            "id": 504,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MONES CAZÓN",
+            "id": 505,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MONTE",
+            "id": 506,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MONTE CHINGOLO",
+            "id": 507,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MONTE GRANDE",
+            "id": 508,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MONTE HERMOSO",
+            "id": 509,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MOQUEHUÁ",
+            "id": 510,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MOREA",
+            "id": 511,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MORENO",
+            "id": 512,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MORÓN",
+            "id": 513,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MORON",
+            "id": 514,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MORSE",
+            "id": 515,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MUÑÍZ",
+            "id": 516,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MUÑIZ",
+            "id": 517,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "MUNRO",
+            "id": 518,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "NAPALEOFÚ",
+            "id": 519,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "NAPALEOFU",
+            "id": 520,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "NAVARRO",
+            "id": 521,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "NECOCHEA",
+            "id": 522,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "NICANOR OLIVERA",
+            "id": 523,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "NORBERTO DE LA RIESTRA",
+            "id": 524,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "NORDELTA",
+            "id": 525,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "NORDELTA TIGRE",
+            "id": 526,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "O'HIGGINS",
+            "id": 527,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "OLAVARRÍA",
+            "id": 528,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "OLAVARRIA",
+            "id": 529,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "OLIVERA",
+            "id": 530,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "OLIVOS",
+            "id": 531,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "OLMOS",
+            "id": 532,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "OPEN DOOR",
+            "id": 533,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ORIENTE",
+            "id": 534,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "OSTENDE",
+            "id": 535,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "OTAMENDI",
+            "id": 536,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PABLO NOGUÉS",
+            "id": 537,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PABLO NOGUES-MALVINA",
+            "id": 538,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PABLO PODESTÁ",
+            "id": 539,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PABLO PODESTA",
+            "id": 540,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PARADA LOS ROBLES",
+            "id": 541,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PARQUE LELOIR",
+            "id": 542,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PARQUE SAN MARTÍN",
+            "id": 543,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PARTIDO DE LA COSTA",
+            "id": 544,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PASMAN",
+            "id": 545,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PASO DEL REY",
+            "id": 546,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PASTEUR",
+            "id": 547,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PAVÓN",
+            "id": 548,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PAZ JOSE C",
+            "id": 549,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PEDERNALES",
+            "id": 550,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PEDRO LURO",
+            "id": 551,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PEHUAJÓ",
+            "id": 552,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PEHUAJO",
+            "id": 553,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PEHUENCÓ",
+            "id": 554,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PEHUENCO",
+            "id": 555,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PELLEGRINI",
+            "id": 556,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PEREYRA",
+            "id": 557,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PÉREZ MILLÁN",
+            "id": 558,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PERGAMINO",
+            "id": 559,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PIEDRITAS",
+            "id": 560,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PIGÜÉ",
+            "id": 561,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PIGUE",
+            "id": 562,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PILA",
+            "id": 563,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PILAR",
+            "id": 564,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PINAMAR",
+            "id": 565,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PIÑEIRO",
+            "id": 566,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PIÑEYRO",
+            "id": 567,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PINEYRO",
+            "id": 568,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PIPINAS",
+            "id": 569,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PIROVANO",
+            "id": 570,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PLÁTANOS",
+            "id": 571,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PLAYA DORADA",
+            "id": 572,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "POLVAREDAS",
+            "id": 573,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PONTEVEDRA",
+            "id": 574,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PRESIDENTE DERQUI",
+            "id": 575,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PUÁN",
+            "id": 576,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PUAN",
+            "id": 577,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PUEBLO SAN JOSÉ",
+            "id": 578,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PUEBLO SANTA MARIA",
+            "id": 579,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PUEBLO SANTA TRINIDAD",
+            "id": 580,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PUERTO GALVAN",
+            "id": 581,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PUERTO NECOCHEA",
+            "id": 582,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PUERTO QUEQUÉN",
+            "id": 583,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PUNTA ALTA",
+            "id": 584,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PUNTA INDIO",
+            "id": 585,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "PUNTA LARA",
+            "id": 586,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "QUENUMÁ",
+            "id": 587,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "QUEQUÉN",
+            "id": 588,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "QUILMES",
+            "id": 589,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "QUILMES OESTE",
+            "id": 590,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "QUIROGA",
+            "id": 591,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "RAFAEL CALZADA",
+            "id": 592,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "RAFAEL CASTILLO",
+            "id": 593,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "RAFAEL OBLIGADO",
+            "id": 594,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "RAFAELA",
+            "id": 595,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "RAMALLO",
+            "id": 596,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "RAMOS MEJÍA",
+            "id": 597,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "RAMOS MEJIA",
+            "id": 598,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "RANCAGUA",
+            "id": 599,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "RANCHOS",
+            "id": 600,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "RANELAGH",
+            "id": 601,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "RAUCH",
+            "id": 602,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "RAWSON",
+            "id": 603,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "REMEDIOS DE ESCALADA",
+            "id": 604,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "RETA",
+            "id": 605,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "RICARDO ROJAS",
+            "id": 606,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "RINCON DE MILBERG",
+            "id": 607,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "RINGUELET",
+            "id": 608,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "RÍO TALA",
+            "id": 609,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "RIVADAVIA",
+            "id": 610,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "RIVERA",
+            "id": 611,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ROBERTS",
+            "id": 612,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ROJAS",
+            "id": 613,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ROQUE PEREZ",
+            "id": 614,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ROQUE PÉREZ",
+            "id": 615,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ROSARIO",
+            "id": 616,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ROUCH",
+            "id": 617,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAAVEDRA",
+            "id": 618,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAENZ PEÑA",
+            "id": 619,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SALADILLO",
+            "id": 620,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SALAZAR",
+            "id": 621,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SALDUNGARAY",
+            "id": 622,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SALLIQUELÓ",
+            "id": 623,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SALLIQUELO",
+            "id": 624,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SALTO",
+            "id": 625,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SALVADOR MARÍA",
+            "id": 626,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN ANDRES",
+            "id": 627,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN ANDRÉS DE GILES",
+            "id": 628,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN ANDRES DE GILES",
+            "id": 629,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN ANTONIO DE ARECO",
+            "id": 630,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN ANTONIO DE PADUA",
+            "id": 631,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN BERNARDO",
+            "id": 632,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN CARLOS",
+            "id": 633,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN CAYETANO",
+            "id": 634,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN CLAMENTE",
+            "id": 635,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN CLEMENTE",
+            "id": 636,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN CLEMENTE DEL TUYÚ",
+            "id": 637,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN ENRIQUE",
+            "id": 638,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN FELIPE",
+            "id": 639,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN FERNANDO",
+            "id": 640,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN FRANCISCO DE ASIS",
+            "id": 641,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN FRANCISCO SOLANO",
+            "id": 642,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN ISIDRO",
+            "id": 643,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN JORGE",
+            "id": 644,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN JOSÉ",
+            "id": 645,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN JUSTO",
+            "id": 646,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN LORENZO",
+            "id": 647,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN LUIS",
+            "id": 648,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN MANUEL",
+            "id": 649,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN MARTÍN",
+            "id": 650,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN MARTÍN DE TOURS",
+            "id": 651,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN MIGUEL",
+            "id": 652,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN MIGUEL ARCÁNGEL",
+            "id": 653,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN MIGUEL DEL MONTE",
+            "id": 654,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN NICOLÁS",
+            "id": 655,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN NICOLAS",
+            "id": 656,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN NICOLAS DE LOS ARROYOS",
+            "id": 657,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN PEDRO",
+            "id": 658,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN PONCIANO",
+            "id": 659,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN VICENTE",
+            "id": 660,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN VIVENTE",
+            "id": 661,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SANFORD",
+            "id": 662,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SANTA CLARA DEL MAR",
+            "id": 663,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SANTA ISABEL",
+            "id": 664,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SANTA LUCÍA",
+            "id": 665,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SANTA MARÍA",
+            "id": 666,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SANTA MARIA",
+            "id": 667,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SANTA REGINA",
+            "id": 668,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SANTA ROSA",
+            "id": 669,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SANTA TERESITA",
+            "id": 670,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SANTA TERESITA PERGAMINO",
+            "id": 671,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SANTA TRINIDAD",
+            "id": 672,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SANTO DOMINGO",
+            "id": 673,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SANTOS LUGARES",
+            "id": 674,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SARANDÍ",
+            "id": 675,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SARANDI",
+            "id": 676,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SARMIENTO",
+            "id": 677,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAUCE GRANDE",
+            "id": 678,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SERRA DE LA VENTANA",
+            "id": 679,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SIERRA CHICA",
+            "id": 680,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SIERRA DE LA VENTANA",
+            "id": 681,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SIERRA DE LOS PADRES",
+            "id": 682,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SIERRAS BAYAS",
+            "id": 683,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SMITH",
+            "id": 684,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SOLÍS",
+            "id": 685,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SOLIS",
+            "id": 686,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SOURDEAUX",
+            "id": 687,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SOURIGUES",
+            "id": 688,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SPAGAZZINI",
+            "id": 689,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "STROEDER",
+            "id": 690,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SUIPACHA",
+            "id": 691,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "TABLADA",
+            "id": 692,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "TALAR",
+            "id": 693,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "TANDIL",
+            "id": 694,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "TAPALQUE",
+            "id": 695,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "TAPALQUÉ",
+            "id": 696,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "TAPIALES",
+            "id": 697,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "TEMPERLEY",
+            "id": 698,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "TEODELINA",
+            "id": 699,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "TIGRE",
+            "id": 700,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "TIMOTE",
+            "id": 701,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "TOLOSA",
+            "id": 702,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "TOMAS JOFRE",
+            "id": 703,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "TORNQUIST",
+            "id": 704,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "TORQUINST",
+            "id": 705,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "TORRES",
+            "id": 706,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "TORTUGUITAS",
+            "id": 707,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "TRENQUE LAUNQUEN",
+            "id": 708,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "TRENQUE LAUQUEN",
+            "id": 709,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "TRES ALGARROBOS",
+            "id": 710,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "TRES ARROYOS",
+            "id": 711,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "TRES DE FEBRERO",
+            "id": 712,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "TRES LOMAS",
+            "id": 713,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "TRES SARGENTOS",
+            "id": 714,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "TRISTÁN SUÁREZ",
+            "id": 715,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "TRONCOS DEL TALAR",
+            "id": 716,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "TRUJUI",
+            "id": 717,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "TURDERA",
+            "id": 718,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "UNION FERROVIARIA",
+            "id": 719,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "URDAMPILLETA",
+            "id": 720,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "URIBELARREA",
+            "id": 721,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "URQUIZA",
+            "id": 722,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VALENTÍN ALSINA",
+            "id": 723,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VALENTIN ALSINA",
+            "id": 724,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VALERIA DEL MAR",
+            "id": 725,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VEDIA",
+            "id": 726,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VERÓNICA",
+            "id": 727,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VERONICA",
+            "id": 728,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VICENTE LÓPEZ",
+            "id": 729,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VICTORIA",
+            "id": 730,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VIEDMA",
+            "id": 731,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA ADELINA",
+            "id": 732,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA ANGÉLICA",
+            "id": 733,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA ASTOLFI",
+            "id": 734,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA BALLESTER",
+            "id": 735,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA BOSCH",
+            "id": 736,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA CACIQUE",
+            "id": 737,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA CASTELLS",
+            "id": 738,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA CELINA",
+            "id": 739,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA CENTENARIO",
+            "id": 740,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA CHACABUCO",
+            "id": 741,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA DE MAYO",
+            "id": 742,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA DEL MAR",
+            "id": 743,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA DOMINICO",
+            "id": 744,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA DOMÍNICO",
+            "id": 745,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA EDUARDO MADERO",
+            "id": 746,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA ELISA",
+            "id": 747,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA ELVIRA",
+            "id": 748,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA ESPAÑA",
+            "id": 749,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA FIORITO",
+            "id": 750,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA FORTABAT",
+            "id": 751,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA FOURNIER",
+            "id": 752,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA GENERAL ARIAS",
+            "id": 753,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA GENERAL JOSÉ TOMÁS GUIDO",
+            "id": 754,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA GESELL",
+            "id": 755,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA GOBERNADOR UDAONDO",
+            "id": 756,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA GREGORIA MATORRAS",
+            "id": 757,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA INSUPERABLE",
+            "id": 758,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA IRIS",
+            "id": 759,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA LÍA",
+            "id": 760,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA LIBERTAD",
+            "id": 761,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA LUZURIAGA",
+            "id": 762,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA LYNCH",
+            "id": 763,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA LYNCH PUEYRREDÓN",
+            "id": 764,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA MADERO",
+            "id": 765,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA MARTELLI",
+            "id": 766,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA MAZA",
+            "id": 767,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA MOQUEHUA",
+            "id": 768,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA NUMANCIA",
+            "id": 769,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA ORTÍZ",
+            "id": 770,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA RAFFO",
+            "id": 771,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA RAMALLO",
+            "id": 772,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA ROSA",
+            "id": 773,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA SAENZ PEÑA",
+            "id": 774,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA SAN LUIS",
+            "id": 775,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA SANTOS TESEI",
+            "id": 776,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA SARMIENTO",
+            "id": 777,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA SAUCE",
+            "id": 778,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA TESEI",
+            "id": 779,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA VATTEONE",
+            "id": 780,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA VENTANA",
+            "id": 781,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA VILLA RAMALLO",
+            "id": 782,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLALONGA",
+            "id": 783,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLARINO",
+            "id": 784,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLARS",
+            "id": 785,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VIRREY DEL PINO",
+            "id": 786,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VIRREYES",
+            "id": 787,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VIVORATA",
+            "id": 788,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VIVORATÁ",
+            "id": 789,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "WILDE",
+            "id": 790,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "WILLIAM MORRIS",
+            "id": 791,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ZAPIOLA",
+            "id": 792,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ZÁRATE",
+            "id": 793,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ZARATE",
+            "id": 794,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ZELAYA",
+            "id": 795,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "ADROGUE",
+            "id": 796,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "CIUDAD JARDIN DEL PALOMAR",
+            "id": 797,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "JOSE LEÓN SUÁREZ",
+            "id": 798,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "JOSE MARMOL",
+            "id": 799,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "SAN BERNARDO DEL TUYU",
+            "id": 800,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VALDÉS",
+            "id": 801,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA GODOY CRUZ",
+            "id": 802,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "VILLA LA ÑATA",
+            "id": 803,
+            "lat": 0.0,
+            "lng": 0.0
+        },
+        {
+            "nombre": "WILLIAM C. MORRIS",
+            "id": 804,
+            "lat": 0.0,
+            "lng": 0.0
+        }
+    ]
+}
