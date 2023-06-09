@@ -1,0 +1,561 @@
+{
+    "promotions": [],
+    "types": [
+        {
+            "nombre": "TALLERES MECÁNICOS",
+            "id": 0,
+            "categoria": "automotor"
+        },
+        {
+            "nombre": "ALMACENES/ DIETÉTICAS Y MÁS",
+            "id": 1,
+            "categoria": "alimentacion"
+        },
+        {
+            "nombre": "RESTAURANTES/ CONFITERÍAS",
+            "id": 2,
+            "categoria": "ocio"
+        },
+        {
+            "nombre": "GOMERÍAS",
+            "id": 3,
+            "categoria": "automotor"
+        },
+        {
+            "nombre": "PANADERÍA",
+            "id": 4,
+            "categoria": "alimentacion"
+        },
+        {
+            "nombre": "SUPERMERCADOS",
+            "id": 5,
+            "categoria": "alimentacion"
+        },
+        {
+            "nombre": "OTROS",
+            "id": 6,
+            "categoria": "otros"
+        },
+        {
+            "nombre": "ACCESORIOS/ REPUESTOS",
+            "id": 7,
+            "categoria": "hogar"
+        },
+        {
+            "nombre": "ARTÍCULOS COMESTIBLES Y MÁS",
+            "id": 8,
+            "categoria": "alimentacion"
+        },
+        {
+            "nombre": "ARTÍCULOS DE INFORMÁTICA",
+            "id": 9,
+            "categoria": "tecnologia"
+        },
+        {
+            "nombre": "ARTÍCULOS DE LIMPIEZA",
+            "id": 10,
+            "categoria": "hogar"
+        },
+        {
+            "nombre": "ARTÍCULOS DEPORTIVOS",
+            "id": 11,
+            "categoria": "indumentaria"
+        },
+        {
+            "nombre": "ARTÍCULOS ELÉCTRICOS",
+            "id": 12,
+            "categoria": "construccion"
+        },
+        {
+            "nombre": "ARTÍCULOS PARA EL HOGAR",
+            "id": 13,
+            "categoria": "hogar"
+        },
+        {
+            "nombre": "ARTÍCULOS PARA MASCOTAS",
+            "id": 14,
+            "categoria": "mascotas"
+        },
+        {
+            "nombre": "ARTÍCULOS REGIONALES",
+            "id": 15,
+            "categoria": "alimentacion"
+        },
+        {
+            "nombre": "BAR/ PUB",
+            "id": 16,
+            "categoria": "ocio"
+        },
+        {
+            "nombre": "BAZAR/ REGALERÍA",
+            "id": 17,
+            "categoria": "hogar"
+        },
+        {
+            "nombre": "BOMBONERIAS",
+            "id": 18,
+            "categoria": "alimentacion"
+        },
+        {
+            "nombre": "CALZADOS",
+            "id": 19,
+            "categoria": "indumentaria"
+        },
+        {
+            "nombre": "CENTROS DE ESTÉTICA Y MÁS",
+            "id": 20,
+            "categoria": "belleza"
+        },
+        {
+            "nombre": "COMBUSTIBLE",
+            "id": 21,
+            "categoria": "automotor"
+        },
+        {
+            "nombre": "DISTRIBUIDORES",
+            "id": 22,
+            "categoria": "serivicios"
+        },
+        {
+            "nombre": "E-COMMERCE",
+            "id": 23,
+            "categoria": "otros"
+        },
+        {
+            "nombre": "ELECTRODOMÉSTICOS",
+            "id": 24,
+            "categoria": "hogar"
+        },
+        {
+            "nombre": "ENTRETENIMIENTO",
+            "id": 25,
+            "categoria": "ocio"
+        },
+        {
+            "nombre": "ESTACIONAMIENTOS",
+            "id": 26,
+            "categoria": "automotor"
+        },
+        {
+            "nombre": "FÁBRICA DE PASTAS/ ROTISERÍAS",
+            "id": 27,
+            "categoria": "alimentacion"
+        },
+        {
+            "nombre": "FARMACIAS/ PERFUMERÍAS Y MÁS",
+            "id": 28,
+            "categoria": "belleza"
+        },
+        {
+            "nombre": "FAST FOOD/ PARA LLEVAR",
+            "id": 29,
+            "categoria": "alimentacion"
+        },
+        {
+            "nombre": "FERRETERÍAS",
+            "id": 30,
+            "categoria": "construccion"
+        },
+        {
+            "nombre": "HELADERÍA",
+            "id": 31,
+            "categoria": "alimentacion"
+        },
+        {
+            "nombre": "ILUMINACIÓN",
+            "id": 32,
+            "categoria": "construccion"
+        },
+        {
+            "nombre": "INDUMENTARIA/ BOUTIQUE",
+            "id": 33,
+            "categoria": "indumentaria"
+        },
+        {
+            "nombre": "INMOBILIARIAS",
+            "id": 34,
+            "categoria": "serivicios"
+        },
+        {
+            "nombre": "INSTITUCIONES EDUCATIVAS",
+            "id": 35,
+            "categoria": "educacion"
+        },
+        {
+            "nombre": "INSTITUTOS DE ENSEÑANZA",
+            "id": 36,
+            "categoria": "educacion"
+        },
+        {
+            "nombre": "INSUMOS DE TEJER/ COSER Y MÁS",
+            "id": 37,
+            "categoria": "indumentaria"
+        },
+        {
+            "nombre": "JOYERÍAS/ RELOJERIAS",
+            "id": 38,
+            "categoria": "indumentaria"
+        },
+        {
+            "nombre": "JUGUETERÍAS",
+            "id": 39,
+            "categoria": "otros"
+        },
+        {
+            "nombre": "KIOSKO/ TABAQUERÍA/ POLIRUBRO",
+            "id": 40,
+            "categoria": "alimentacion"
+        },
+        {
+            "nombre": "LENCERÍA",
+            "id": 41,
+            "categoria": "indumentaria"
+        },
+        {
+            "nombre": "LIBRERÍAS/ IMPRENTAS",
+            "id": 42,
+            "categoria": "educacion"
+        },
+        {
+            "nombre": "MARROQUINERÍAS",
+            "id": 43,
+            "categoria": "indumentaria"
+        },
+        {
+            "nombre": "MAT. PARA LA CONSTRUCCIÓN",
+            "id": 44,
+            "categoria": "construccion"
+        },
+        {
+            "nombre": "MAYORISTAS",
+            "id": 45,
+            "categoria": "alimentacion"
+        },
+        {
+            "nombre": "MUEBLERÍAS",
+            "id": 46,
+            "categoria": "hogar"
+        },
+        {
+            "nombre": "OBRAS SOCIALES/ PREPAGAS",
+            "id": 47,
+            "categoria": "servicios"
+        },
+        {
+            "nombre": "PELUQUERÍAS",
+            "id": 48,
+            "categoria": "belleza"
+        },
+        {
+            "nombre": "PINTURERÍAS",
+            "id": 49,
+            "categoria": "construccion"
+        },
+        {
+            "nombre": "SEGUROS",
+            "id": 50,
+            "categoria": "servicios"
+        },
+        {
+            "nombre": "SERVICIOS DE SALUD/ MEDICINA",
+            "id": 51,
+            "categoria": "salud"
+        },
+        {
+            "nombre": "SERVICIOS DE TRANSPORTE",
+            "id": 52,
+            "categoria": "servicios"
+        },
+        {
+            "nombre": "SERVICIOS PARA EL AUTOMOTOR",
+            "id": 53,
+            "categoria": "automotor"
+        },
+        {
+            "nombre": "SERVICIOS PROFESIONALES",
+            "id": 54,
+            "categoria": "servicios"
+        },
+        {
+            "nombre": "TEXTIL",
+            "id": 55,
+            "categoria": "indumentaria"
+        },
+        {
+            "nombre": "TINTORERÍA/ LAVANDERÍA",
+            "id": 56,
+            "categoria": "servicios"
+        },
+        {
+            "nombre": "TURISMO/ HOTELES",
+            "id": 57,
+            "categoria": "ocio"
+        },
+        {
+            "nombre": "UNIFORMES",
+            "id": 58,
+            "categoria": "indumentaria"
+        },
+        {
+            "nombre": "VENTA DE PRODUCTOS AGRO",
+            "id": 59,
+            "categoria": "otros"
+        },
+        {
+            "nombre": "VENTAS DE AUTOMOTORES",
+            "id": 60,
+            "categoria": "automotor"
+        },
+        {
+            "nombre": "VERDULERÍAS/ FRUTERÍAS",
+            "id": 61,
+            "categoria": "alimentacion"
+        },
+        {
+            "nombre": "VETERINARIA",
+            "id": 62,
+            "categoria": "mascotas"
+        },
+        {
+            "nombre": "AUXILIOS MECÁNICOS",
+            "id": 63,
+            "categoria": "automotor"
+        },
+        {
+            "nombre": "CARNICERÍAS/ GRANJAS Y MÁS",
+            "id": 64,
+            "categoria": "alimentacion"
+        },
+        {
+            "nombre": "DIARIOS/ REVISTAS",
+            "id": 65,
+            "categoria": "servicios"
+        },
+        {
+            "nombre": "DISTRIBUCIÓN DE GAS/ GARRAFAS",
+            "id": 66,
+            "categoria": "servicios"
+        },
+        {
+            "nombre": "EVENTOS",
+            "id": 67,
+            "categoria": "ocio"
+        },
+        {
+            "nombre": "FABRICANTES",
+            "id": 68,
+            "categoria": "otros"
+        },
+        {
+            "nombre": "TELEVISIÓN POR CABLE",
+            "id": 69,
+            "categoria": "servicios"
+        },
+        {
+            "nombre": "ACADEMIAS DE CONDUCCIÓN",
+            "id": 70,
+            "categoria": "automotor"
+        },
+        {
+            "nombre": "BIJOUTERIE/ PLATERÍA",
+            "id": 71,
+            "categoria": "indumentaria"
+        },
+        {
+            "nombre": "CARPINTERÍA",
+            "id": 72,
+            "categoria": "construccion"
+        },
+        {
+            "nombre": "FLORERÍAS/ VIVEROS",
+            "id": 73,
+            "categoria": "hogar"
+        },
+        {
+            "nombre": "GIMNASIOS",
+            "id": 74,
+            "categoria": "salud"
+        },
+        {
+            "nombre": "HOSPITALES/ GUARDIAS Y MÁS",
+            "id": 75,
+            "categoria": "salud"
+        },
+        {
+            "nombre": "PESCA/ CAZA/ ARMERÍA",
+            "id": 76,
+            "categoria": "ocio"
+        },
+        {
+            "nombre": "SANTERÍAS",
+            "id": 77,
+            "categoria": "otros"
+        },
+        {
+            "nombre": "SERVICIO DE LUNCH",
+            "id": 78,
+            "categoria": "alimentacion"
+        },
+        {
+            "nombre": "TELEFONÍA",
+            "id": 79,
+            "categoria": "servicios"
+        },
+        {
+            "nombre": "VENTA DE MOTOS",
+            "id": 80,
+            "categoria": "automotor"
+        },
+        {
+            "nombre": "VENTA TELEFÓNICA",
+            "id": 81,
+            "categoria": "otros"
+        },
+        {
+            "nombre": "VINOTECAS/ CERVEZAS/ LICORES",
+            "id": 82,
+            "categoria": "alimentacion"
+        },
+        {
+            "nombre": "BICICLETAS/ RODADOS",
+            "id": 83,
+            "categoria": "otros"
+        },
+        {
+            "nombre": "CEMENTERIOS/ CASA VELATORIA",
+            "id": 84,
+            "categoria": "servicios"
+        },
+        {
+            "nombre": "CERRAJERÍA/ CRISTALES",
+            "id": 85,
+            "categoria": "hogar"
+        },
+        {
+            "nombre": "PAGO DE SERVICIOS Y MÁS",
+            "id": 86,
+            "categoria": "servicios"
+        },
+        {
+            "nombre": "RECREACIÓN/ HOBBIES",
+            "id": 87,
+            "categoria": "ocio"
+        },
+        {
+            "nombre": "ARTÍCULOS PROFESIONALES",
+            "id": 88,
+            "categoria": "otros"
+        },
+        {
+            "nombre": "LAVADEROS/ LUBRICENTROS",
+            "id": 89,
+            "categoria": "automotor"
+        },
+        {
+            "nombre": "ASOCIACIONES CIVÍLES",
+            "id": 90,
+            "categoria": "otros"
+        },
+        {
+            "nombre": "CLUBES/ CAMPINGS/ BALNEARIOS",
+            "id": 91,
+            "categoria": "ocio"
+        },
+        {
+            "nombre": "ALQUILER DE PRENDAS",
+            "id": 92,
+            "categoria": "indumentaria"
+        },
+        {
+            "nombre": "CELULARES",
+            "id": 93,
+            "categoria": "servicios"
+        },
+        {
+            "nombre": "SERVICIOS PÚBLICOS",
+            "id": 94,
+            "categoria": "servicios"
+        },
+        {
+            "nombre": "PELUCAS Y POSTIZOS",
+            "id": 95,
+            "categoria": "salud"
+        },
+        {
+            "nombre": "VENTA POR CATÁLOGO",
+            "id": 96,
+            "categoria": "otros"
+        },
+        {
+            "nombre": "INSTRUMENTOS MUSICALES",
+            "id": 97,
+            "categoria": "ocio"
+        },
+        {
+            "nombre": "NATATORIOS",
+            "id": 98,
+            "categoria": "ocio"
+        },
+        {
+            "nombre": "TEATROS",
+            "id": 99,
+            "categoria": "ocio"
+        },
+        {
+            "nombre": "ARTÍCULOS PARA PISCINAS Y MÁS",
+            "id": 100,
+            "categoria": "otros"
+        },
+        {
+            "nombre": "ENTE GUBERNAMENTAL",
+            "id": 101,
+            "categoria": "otros"
+        },
+        {
+            "nombre": "JUEGOS DE AZAR",
+            "id": 102,
+            "categoria": "ocio"
+        },
+        {
+            "nombre": "PAÑALERA",
+            "id": 103,
+            "categoria": "salud"
+        },
+        {
+            "nombre": "SERVICIOS FINANCIEROS",
+            "id": 104,
+            "categoria": "servicios"
+        },
+        {
+            "nombre": "MERCADO CENTRAL",
+            "id": 105,
+            "categoria": "alimentacion"
+        },
+        {
+            "nombre": "ESTACIONES DE SERVICIO",
+            "id": 106,
+            "categoria": "automotor"
+        },
+        {
+            "nombre": "CINES",
+            "id": 107,
+            "categoria": "ocio"
+        },
+        {
+            "nombre": "FUNDACIONES",
+            "id": 108,
+            "categoria": "otros"
+        },
+        {
+            "nombre": "ACUARIOS",
+            "id": 109,
+            "categoria": "ocio"
+        },
+        {
+            "nombre": "DEBITO AUTOMÁTICO",
+            "id": 110,
+            "categoria": "servicios"
+        }
+    ],
+    "localities": []
+}
